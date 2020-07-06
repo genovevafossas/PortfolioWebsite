@@ -1,51 +1,79 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import '../styles/components.scss';
+import icon from '../assets/icon.jpg';
+import resume from '../assets/ResumeFossas.pdf'
+import { FaGithubSquare, FaEnvelopeSquare, FaLinkedin, FaTwitterSquare, FaFileDownload } from 'react-icons/fa'
 
-import './style.scss';
+export const author = {
+    name: 'Genoveva Fossas',
+    tagline: 'Undergraduate Research Assistant @ UCF',
+    email: 'genofossas@gmail.com',
+    socials: {
+        twitter: 'gfossas',
+        linkedin: 'gfossas',
+        github: 'genovevafossas'
+    }
+}
 
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
-import Navbar from './navbar';
-
-const Header = ({ siteTitle }) => (
-	<section className="hero gradientBg is-fullheight-with-navbar">
-		<Navbar />
-		<div className="hero-body">
-			<div className="container center">
-				<article className="media">
-					<figure className="is-left">
-						<span className="icon is-large ">
-							<img src={gatsbyLogo} alt="gatsby-logo" />
-						</span>
-					</figure>
-					<figure className="is-left">
-						<span className="icon is-large">
-							<img src={bulmaLogo} alt="bulma-logo" />
-						</span>
-					</figure>
-					<div className="media-content">
-						<div className="content">
-							<h1 className="is-uppercase is-size-1 has-text-white">
-								Hello from Bulma + Gatsby
-							</h1>
-							<p className="subtitle has-text-white is-size-3">
-								A Bulma CSS + GatsbyJS Starter Kit{' '}
-								<a
-									className="button is-info is-inverted"
-									href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-								>
-									<span className="icon">
-										<FaGithub size="fa-2x" />
-									</span>
-									<span>Download</span>
-								</a>
-							</p>
-						</div>
-					</div>
-				</article>
-			</div>
-		</div>
-	</section>
-);
-
-export default Header;
+export default function Header() {
+    return (
+        <section className="hero gradient-bg is-dark">
+            <div className="hero-body">
+                <div className="header">
+                    <img className="icon" src={icon} alt="Genoveva"/>
+                    <section className="section has-text-justified">
+                        <div className="container">
+                            <h1 className="title is-2">{author.name}</h1>
+                            <h2 className="subtitle is-4">{author.tagline}</h2>
+                        </div>
+                        <div className="container pt-2">
+                            <a 
+                                className="icon-link"
+                                href={`mailto:${author.email}`}
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <FaEnvelopeSquare className="social-icon" size="2.75em"/>
+                            </a>
+                            <a 
+                                className="icon-link" 
+                                href={`https://github.com/${author.socials.github}`}
+                                rel="noreferrer" 
+                                target="_blank"
+                            >
+                                <FaGithubSquare className="social-icon" size="2.75em"/>
+                            </a>
+                            <a 
+                                className="icon-link"
+                                href={`https://linkedin.com/in/${author.socials.linkedin}`}
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <FaLinkedin className="social-icon" size="2.75em"/>
+                            </a>
+                            <a 
+                                className="icon-link"
+                                href={`https://twitter.com/${author.socials.twitter}`}
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <FaTwitterSquare className="social-icon" size="2.75em"/>
+                            </a>
+                            <a
+                                className="icon-link"
+                                href={resume}
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <button className="button">
+                                    <FaFileDownload style={{marginRight:7}} size="1.4em"/>
+                                    <span className="button-text">Resume PDF</span>
+                                </button>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    );
+}
