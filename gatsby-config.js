@@ -1,8 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Genoveva Fossas\' Personal Website',
+		title: 'Genoveva Fossas',
 		author: 'Genoveva Fossas',
-		description: 'Personal website for Genoveva Fossas',
+		description: 'Portfolio website for Genoveva Fossas',
 		keywords: `Software developer, software, developer, Genoveva, Fossas`,
 		siteUrl: `https://genovevafossas.com`
 	},
