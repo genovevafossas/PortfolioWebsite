@@ -11,13 +11,12 @@ export default function Body() {
                         <div className="tile is-child box has-background-white-ter">
                         <p className="title">About me</p>
                         <p>
-                            A senior Burnett Honors College member pursuing a Bachelor’s in computer science at the
-                            University of Central Florida. Primary interests include software security, programming
-                            languages, and program analysis. I normally work on side channel mitigation 
-                            under <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> as an undergraduate 
-                            research assistant, but I am currently spending the summer as a remote intern at AWS on the
-                            AWS Service Quotas team. I fully anticipate to return to research with
-                            Dr. Gazzillo in the upcoming fall.
+                            A senior Burnett Honors College member and Grace Hopper Conference student scholarship recipient
+                            pursuing a Bachelor’s in computer science at the University of Central Florida. Primary interests
+                            include software security, programming languages, and program analysis. I normally work on side 
+                            channel mitigation under <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> as an undergraduate
+                            research assistant, but I am currently spending the summer as a remote intern at AWS on the AWS
+                            Service Quotas team. I fully anticipate to return to research with Dr. Gazzillo in the upcoming fall.
                         </p>
                         </div>
                         <div className="tile is-child box has-background-white-ter">
