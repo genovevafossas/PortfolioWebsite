@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/components.scss';
 import icon from '../assets/icon.jpg';
-import resume from '../assets/ResumeFossas.pdf'
 import { FaGithubSquare, FaEnvelopeSquare, FaLinkedin, FaTwitterSquare, FaFileDownload } from 'react-icons/fa'
 
 export const author = {
@@ -61,7 +60,7 @@ export default function Header() {
                             </a>
                             <a
                                 className="icon-link"
-                                href={resume}
+                                href={"./Resume.pdf"}
                                 rel="noreferrer"
                                 target="_blank"
                             >
