@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/components.scss';
-import screenshot from '../assets/website-screenshot.png';
+// import screenshot from '../assets/website-screenshot.png';
 
 export default function Body() {
     return(
@@ -9,43 +9,53 @@ export default function Body() {
                 <div className="tile is-8 is-vertical">
                     <div className="tile is-vertical is-parent">
                         <div className="tile is-child box has-background-white-ter">
-                        <p className="title">About me</p>
-                        <p>
-                            A senior Burnett Honors College member and Grace Hopper Conference student scholarship recipient
-                            pursuing a Bachelor’s in computer science at the University of Central Florida. Primary interests
-                            include software security, programming languages, and program analysis. I normally work on side 
-                            channel mitigation under <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> as an undergraduate
-                            research assistant, but I am currently spending the summer as a remote intern at AWS on the AWS
-                            Service Quotas team. I fully anticipate to return to research with Dr. Gazzillo in the upcoming fall.
-                        </p>
+                            <p className="title">About me</p>
+                            <p>
+                                I’m a Burnett Honors College member at the University of Central Florida studying computer science.
+                                My primary interests include software security, programming languages, and program analysis. Outside
+                                of class I participate in undergraduate research with <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> on
+                                a project involving compilers for security. I also have experience as a front end developer through my two
+                                summer internships with the Service Quotas team at Amazon Web Services. The best way to contact me is
+                                through my email, as I check that far more often than any of my social media accounts.
+                            </p>
+                            <br/>
+                            <p>
+                                In my down time I love to digitally illustrate, tinker with software, and read. I also started learning how
+                                to rock climb, and hope to continue to learn when the pandemic settles down. My technology interests at the moment
+                                include learning Python on my own and planning for my first desktop computer build.
+                            </p>
                         </div>
                         <div className="tile is-child box has-background-white-ter">
                             <p className="title">Recent Project(s)</p>
+                            <p className="headline-large">EK400</p>
                             <p>
-                                Recently I undertook the project of rewriting my website in React with Gatsby and Bulma. You're
-                                looking at the product of that right now, in fact. :) My last website was a static website generated
-                                with Jekyll and a pre-made theme. This rewrite was a great learning experience,
-                                and let me explore html and css more than I had previously. For reference, I included a screenshot of
-                                my old website below. You can also see the source code of this website over on my GitHub.
+                                I recently created a successor to my first discord bot <a href="https://github.com/genovevafossas/GlitchBot">GlitchBot</a>.
+                                This new bot, called <a href="https://github.com/genovevafossas/EK400">EK400</a>,
+                                includes “days since” boards that display how many days have passed since a user-provided date.
+                                These boards are implemented as objects in an enmap, and both multi-member server-wide boards and 
+                                personal DM boards are supported. In the future, I plan to add self-serve role management,
+                                random image commands, and some bot responses for phrases that aren’t directed toward the bot.
+                                Instructions on how to use the bot in your own server are provided in the <a href="https://github.com/genovevafossas/EK400/blob/master/README.md">README</a>.
                             </p>
-                            <img className="centered-image" src={screenshot} alt="Screenshot of old website."/>
                         </div>
                         <div className="tile is-child box has-background-white-ter">
                             <p className="title">Experience</p>
-                            <span className="headline-large">Sofware Development Intern - </span>
-                            <span className="sub-headline-large">Amazon Web Services (May 2020 - Present)</span>
-                            <ul>
-                                <li>
-                                    Working with the AWS Service Quotas team to make a widget that aims to bring the
-                                    Service Quotas experience to other AWS Consoles.
-                                </li>
-                            </ul>
                             <span className="headline-large">Undergraduate Research Assistant - </span>
                             <span className="sub-headline-large">University of Central Florida (October 2019 - Present)</span>
                             <ul>
                                 <li>
-                                    Working on modifications to LLVM’s register allocator to support a side-channel free 
-                                    architecture under Dr. Paul Gazzillo.
+                                    Implemented modifications to LLVM’s register allocator to support a side-channel free architecture.
+                                    Tasks included adding an instruction to LLVM, modifying the register allocator’s
+                                    source code, and modifying source to source transformation programs to perform custom transformations.
+                                </li>
+                            </ul>
+                            <span className="headline-large">Software Development Intern - </span>
+                            <span className="sub-headline-large">Amazon Web Services (May 2020 - August 2020)</span>
+                            <ul>
+                                <li>
+                                    Developed an AWS Service Quotas widget for integration into other AWS Consoles. The final
+                                    JavaScript widget provided a more convenient experience for current Service Quotas customers
+                                    by displaying the values of each customer’s quotas.
                                 </li>
                             </ul>
                             <span className="headline-large">AFE Software Development Intern - </span>
@@ -53,11 +63,8 @@ export default function Body() {
                             <ul>
                                 <li>
                                     Built a baseline for an internal console that aimed to make on-boarding to and management
-                                    of information on AWS Service Quotas easier for new and existing AWS services.
-                                </li>
-                                <li>
-                                    Console was built in JavaScript and React.js with an internal library of pre-styled React
-                                    components and served in a serverless architecture.
+                                    of information on AWS Service Quotas easier for new and existing AWS services. The console lists
+                                    services on-boarded, their quotas, and details about the listed quotas.
                                 </li>
                             </ul>
                         </div>
@@ -104,10 +111,10 @@ export default function Body() {
                     <div className="tile is-child box has-background-white-ter">
                         <p className="title"> Courses (Fall 2020)</p>
                         <ul>
-                            <li>Senior Design 1</li>
-                            <li>Statistics 1</li>
-                            <li>Digital Forensics</li>
                             <li>Physics 2</li>
+                            <li>Senior Design 1</li>
+                            <li>Digital Forensics</li>
+                            <li>Writing for the Technical Professional</li>
                         </ul>
                     </div>
                 </div>
