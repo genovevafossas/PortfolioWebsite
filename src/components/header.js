@@ -60,7 +60,7 @@ export default function Header() {
                             </a>
                             <a
                                 className="icon-link"
-                                href="https://www.genofossas.dev/Resume.pdf"
+                                href="https://genofossas.dev/Resume.pdf"
                                 rel="noreferrer"
                                 target="_blank"
                             >
