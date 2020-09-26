@@ -4,7 +4,7 @@ module.exports = {
 		author: 'Genoveva Fossas',
 		description: 'Portfolio website for Genoveva Fossas',
 		keywords: `Software developer, software, developer, Genoveva, Fossas`,
-		siteUrl: `https://genovevafossas.com`
+		siteUrl: `https://genofossas.dev`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
