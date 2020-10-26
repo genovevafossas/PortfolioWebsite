@@ -19,7 +19,11 @@ export default function Header() {
         <section className="hero gradient-bg is-dark">
             <div className="hero-body">
                 <div className="header">
-                    <img className="icon" src={icon} alt="Genoveva"/>
+                    <a 
+                        href="/"
+                    >
+                        <img className="icon" src={icon} alt="Genoveva"/>
+                    </a>
                     <section className="section has-text-justified">
                         <div className="container">
                             <h1 className="title is-2">{author.name}</h1>
@@ -60,7 +64,7 @@ export default function Header() {
                             </a>
                             <a
                                 className="icon-link"
-                                href="https://genofossas.dev/Resume.pdf"
+                                href="https://drive.google.com/file/d/1bsTbmthlCrJ5oa9_FwWAcm8pi38RCVKf/view?usp=sharing"
                                 rel="noreferrer"
                                 target="_blank"
                             >

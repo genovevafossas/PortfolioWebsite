@@ -10,7 +10,7 @@ export default function NotFound() {
 
                 <p>
                     <br/>
-                    <a href="https://genovevafossas.com"> Yes, take me back.</a>
+                    <a href="/"> Yes, take me back.</a>
                     <br/>
                     <a href="https://www.boredbutton.com/"> I dunno, I kinda wanna go on an adventure...</a>
                 </p>
