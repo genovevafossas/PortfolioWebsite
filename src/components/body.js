@@ -11,31 +11,18 @@ export default function Body() {
                         <div className="tile is-child box has-background-white-ter">
                             <p className="title">About me</p>
                             <p>
-                                I’m a Burnett Honors College member at the University of Central Florida studying computer science.
+                                I’m a senior Burnett Honors Scholar at the University of Central Florida studying computer science.
                                 My primary interests include software security, programming languages, and program analysis. Outside
-                                of class I participate in undergraduate research with <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> on
+                                of class, I participate in undergraduate research with <a href="https://paulgazzillo.com/">Dr. Paul Gazzillo</a> on
                                 a project involving compilers for security. I also have experience as a front end developer through my two
                                 summer internships with the Service Quotas team at Amazon Web Services. The best way to contact me is
                                 through my email, as I check that far more often than any of my social media accounts.
                             </p>
                             <br/>
                             <p>
-                                In my down time I love to digitally illustrate, tinker with software, and read. I also started learning how
-                                to rock climb, and hope to continue to learn when the pandemic settles down. My technology interests at the moment
-                                include learning Python on my own and planning for my first desktop computer build.
-                            </p>
-                        </div>
-                        <div className="tile is-child box has-background-white-ter">
-                            <p className="title">Recent Project(s)</p>
-                            <p className="headline-large">EK400</p>
-                            <p>
-                                I recently created a successor to my first discord bot <a href="https://github.com/genovevafossas/GlitchBot">GlitchBot</a>.
-                                This new bot, called <a href="https://github.com/genovevafossas/EK400">EK400</a>,
-                                includes “days since” boards that display how many days have passed since a user-provided date.
-                                These boards are implemented as objects in an enmap, and both multi-member server-wide boards and 
-                                personal DM boards are supported. In the future, I plan to add self-serve role management,
-                                random image commands, and some bot responses for phrases that aren’t directed toward the bot.
-                                Instructions on how to use the bot in your own server are provided in the <a href="https://github.com/genovevafossas/EK400/blob/master/README.md">README</a>.
+                                In my down time I love to illustrate, tinker with software, and read. I also started learning how
+                                to rock climb and hope to continue when the pandemic settles down. I recently built my first desktop
+                                computer and have been honing my JavaScript skills.
                             </p>
                         </div>
                         <div className="tile is-child box has-background-white-ter">
@@ -68,13 +55,39 @@ export default function Body() {
                                 </li>
                             </ul>
                         </div>
+                        <div className="tile is-child box has-background-white-ter">
+                            <p className="title">Recent Project(s)</p>
+                            <p className="headline-large">OpenJML</p>
+                            <p>
+                                I currently work with four other classmates on adding string verification to <a href="https://www.openjml.org/">OpenJML</a>. OpenJML is a tool that helps Java
+                                developers to formally verify Java code, making the process of developing secure code easier. Our work mostly focuses on
+                                adding support for SMTLIB strings into OpenJML. This project is part of my group's senior design curriculum.
+                            </p>
+                            <br/>
+                            <p className="headline-large">EK400</p>
+                            <p>
+                                I recently created a successor to my first discord bot <a href="https://github.com/genovevafossas/GlitchBot">GlitchBot</a>.
+                                This new bot, called <a href="https://github.com/genovevafossas/EK400">EK400</a>,
+                                includes “days since” boards that display how many days have passed since a user-provided date.
+                                These boards are implemented as objects in an enmap, and both multi-member server-wide boards and 
+                                personal DM boards are supported. In the future, I plan to add self-serve role management,
+                                random image commands, and some bot responses for phrases that aren’t directed toward the bot.
+                                Instructions on how to use the bot in your own server are provided in the <a href="https://github.com/genovevafossas/EK400/blob/master/README.md">README</a>.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className="tile is-parent is-vertical">
                     <div className="tile is-child box has-background-white-ter">
                         <p className="title">Education</p>
                         <p className="headline-small"> Bachelor of Science, Computer Science</p>
-                        <p>University of Central Florida, 2017-2021</p>
+                        <p>
+                            University of Central Florida, 2017-2021
+                            <ul>
+                                <li>Burnett Honors Scholar</li>
+                                <li>Member of ACM-W, Hack@UCF</li>
+                            </ul>
+                        </p>
                     </div>
                     <div className="tile is-child box has-background-white-ter">
                         <p className="title">Skills</p>
@@ -109,12 +122,12 @@ export default function Body() {
                         <br/>
                     </div>
                     <div className="tile is-child box has-background-white-ter">
-                        <p className="title"> Courses (Fall 2020)</p>
+                        <p className="title"> Courses (Spring 2021)</p>
                         <ul>
-                            <li>Physics 2</li>
-                            <li>Senior Design 1</li>
-                            <li>Digital Forensics</li>
-                            <li>Writing for the Technical Professional</li>
+                            <li>Biology 2</li>
+                            <li>Senior Design 2</li>
+                            <li>Graduate Operating Systems Design Principles</li>
+                            <li>Statistical Methods 1</li>
                         </ul>
                     </div>
                 </div>
