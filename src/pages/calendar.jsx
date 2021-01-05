@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from '../components/header';
+import Helmet from '../components/helmet';
 
 export default function Calendar() {
     return (
         <div>
+            <Helmet/>
             <Header />
             <section className="section py-3">
                 <div className="container">
