@@ -8,7 +8,7 @@ export const author = {
     tagline: 'Undergraduate Research Assistant @ UCF',
     email: 'genofossas@gmail.com',
     socials: {
-        twitter: 'gfossas',
+        twitter: 'genofossas',
         linkedin: 'gfossas',
         github: 'genovevafossas'
     }
